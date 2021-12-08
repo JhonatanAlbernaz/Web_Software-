@@ -1,0 +1,163 @@
+.height-80 {
+    height: 80px;
+}
+
+.height-581 {
+    height: 581px;
+}
+
+.color-background-color-header {
+    color: #ffffff;
+    background-color: #3b065e;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.div-bars-header {
+    margin-left: 1055px;
+    margin-top: -60px;
+    width: 110px;
+}
+
+.background-color-section {
+    background-color: #3b065e;
+}
+
+.div-conteudo-p-section {
+    padding: 75px 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.div-conteudo-p-section h1 {
+    letter-spacing: normal;
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: none;
+    margin: 0;
+    color: #ffffff;
+}
+
+.div-conteudo-p-section p {
+    font-size: 1.125rem;
+    margin: 30px 78px 0 0;
+    color: #ffffff;
+}
+
+.div-conteudo-p-section a {
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0;
+}
+
+.botao-saiba-mais-p-section {
+    display: block;
+    width: 65%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+    background-size: 200%;
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    font-family: 'Zen Old Mincho', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 11px !important;
+    margin-top: 55px;
+    text-decoration: none !important;
+    padding-left: 105px !important;
+}
+
+.botao-saiba-mais-p-section:hover {
+    background-position: right;
+    color: white !important;
+}
+
+.imagem-p-section {
+    min-height: 581px;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a9fb239c81c553dfba0355d7/ffffff.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contudo-imagem-p-section {
+    padding: 30px 0 30px 40px;
+    justify-content: flex-end;
+}
+
+
+
+/* Responsivo */
+
+@media (max-width: 320px) { 
+    .div-bars-header {
+        margin-left: 230px;
+        margin-top: -60px;
+        width: 35px;
+    }
+}
+  
+@media (min-width: 321px) and (max-width: 375px) {
+    .div-bars-header {
+        margin-left: 280px;
+        margin-top: -60px;
+        width: 50px;    
+    }
+}
+  
+@media (min-width:  376px) and (max-width: 576px) {   
+    .div-bars-header {
+        margin-left: 325px;
+        margin-top: -60px;
+        width: 50px;
+    }
+}
+  
+@media (min-width: 577px) and (max-width: 768px) {
+    .div-bars-header {
+        margin-left: 640px;
+        margin-top: -60px;
+        width: 90px;
+    }
+}
+  
+@media (min-width: 769px) and (max-width: 992px) {
+    
+}
+  
+@media (min-width: 993px) and (max-width: 1200px) {  
+    .div-bars-header {
+        margin-left: 870px;
+        margin-top: -60px;
+        width: 110px;
+    }
+}
+  
+@media (min-width: 1201px) {
+    
+}

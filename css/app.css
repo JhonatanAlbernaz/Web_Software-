@@ -14,6 +14,10 @@
     height: 741px;
 }
 
+.height-695 {
+    height: 695px;
+}
+
 .color-background-color-header {
     color: #ffffff;
     background-color: #3b065e;
@@ -332,6 +336,70 @@
     font-family: 'Zen Old Mincho', serif;
 }
 
+.conteudo-q-section {
+    padding: 190px 60px 30px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteudo-q-section h1 {
+    font-weight: 700;
+    line-height: 52.8px;
+    letter-spacing: normal;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    font-size: 3rem;
+    color: #29b7dd;
+}
+
+.conteudo-q-section p {
+    font-size: 1.25rem;
+    margin: 30px 31px 0 0;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.conteudo-q-section a {
+    color: #29b7dd;
+    display: inline;
+}
+
+.botao-saiba-mais-q-section {
+    display: block;
+    width: 75%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+    background-size: 200%;
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    font-family: 'Zen Old Mincho', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 11px !important;
+    margin-top: 55px;
+    text-decoration: none !important;
+    padding-left: 92px !important;
+}
+
+.botao-saiba-mais-q-section:hover {
+    background-position: right;
+    color: white !important;
+}
+
+.imagem-q-section {
+    width: 730px;
+    height: 520px;
+    object-position: 95.67% 50%;
+    background-position: 95.67% 50%;
+    margin: 115px 0 0 auto;
+}
+
 
 
 /* Responsivo */
@@ -507,6 +575,67 @@
     .height-741 {
         height: 1270px;
     }
+
+    .conteudo-q-section {
+        padding: 70px 0 30px 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo-q-section h1 {
+        font-weight: 700;
+        line-height: 52.8px;
+        letter-spacing: normal;
+        font-family: Roboto, sans-serif;
+        margin: 0;
+        font-size: 2.4rem;
+        color: #29b7dd;
+    }
+
+    .conteudo-q-section p {
+        font-size: 1.25rem;
+        margin: 30px 5px 0 0;
+        font-family: 'Zen Old Mincho', serif;
+    }
+
+    .botao-saiba-mais-q-section {
+        display: block;
+        width: 70%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        text-decoration: none !important;
+        padding-left: 0px !important;
+        margin-left: 50px;
+    }
+
+    .imagem-q-section {
+        width: 315px;
+        height: 255px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: 0 0 0 auto;
+        margin-left: -20px;
+    }
+
+    .height-695 {
+        height: 800px;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -681,6 +810,66 @@
         height: 1270px;
     }
 
+    .conteudo-q-section {
+        padding: 70px 0 30px 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo-q-section h1 {
+        font-weight: 700;
+        line-height: 52.8px;
+        letter-spacing: normal;
+        font-family: Roboto, sans-serif;
+        margin: 0;
+        font-size: 2.7rem;
+        color: #29b7dd;
+    }
+
+    .conteudo-q-section p {
+        font-size: 1.25rem;
+        margin: 30px 5px 0 0;
+        font-family: 'Zen Old Mincho', serif;
+    }
+
+    .botao-saiba-mais-q-section {
+        display: block;
+        width: 70%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        text-decoration: none !important;
+        padding-left: 0px !important;
+        margin-left: 50px;
+    }
+
+    .imagem-q-section {
+        width: 360px;
+        height: 330px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: 0 0 0 auto;
+        margin-left: -20px;
+    }
+
+    .height-695 {
+        height: 835px;
+    }
+
 }
   
 @media (min-width:  376px) and (max-width: 576px) {   
@@ -843,6 +1032,56 @@
         height: 1270px;
     }
 
+    .conteudo-q-section {
+        padding: 70px 0 30px 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo-q-section p {
+        font-size: 1.25rem;
+        margin: 30px 5px 0 0;
+        font-family: 'Zen Old Mincho', serif;
+    }
+
+    .botao-saiba-mais-q-section {
+        display: block;
+        width: 70%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        text-decoration: none !important;
+        padding-left: 0px !important;
+        margin-left: 60px;
+    }
+
+    .imagem-q-section {
+        width: 405px;
+        height: 375px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: 0 0 0 auto;
+        margin-left: -20px;
+    }
+
+    .height-695 {
+        height: 865px;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -968,6 +1207,50 @@
         height: 1000px;
     }
 
+    .conteudo-q-section {
+        padding: 70px 0 30px 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .botao-saiba-mais-q-section {
+        display: block;
+        width: 40%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        text-decoration: none !important;
+        padding-left: 0px !important;
+        margin-left: 200px;
+    }
+
+    .imagem-q-section {
+        width: 730px;
+        height: 520px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: 0 0 0 auto;
+        margin-left: -20px;
+    }
+
+    .height-695 {
+        height: 960px;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1082,6 +1365,46 @@
         color: #ffffff;
         font-family: "Oswald",sans-serif;
         margin-top: 60px;
+    }
+
+    .imagem-q-section {
+        width: 580px;
+        height: 510px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: 150px 0 0 auto;
+    }
+
+    .conteudo-q-section h1 {
+        font-weight: 700;
+        line-height: 52.8px;
+        letter-spacing: normal;
+        font-family: Roboto, sans-serif;
+        margin: 0;
+        font-size: 2.7rem;
+        color: #29b7dd;
+    }
+
+    .botao-saiba-mais-q-section {
+        display: block;
+        width: 90%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        text-decoration: none !important;
+        padding-left: 85px !important;
     }
 
 }

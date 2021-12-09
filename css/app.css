@@ -120,6 +120,52 @@
         margin-top: -60px;
         width: 35px;
     }
+
+    .div-conteudo-p-section h1 {
+        letter-spacing: normal;
+        font-family: Barlow;
+        font-weight: 700;
+        font-size: 2.1rem;
+        text-transform: none;
+        margin: -10px;
+        color: #ffffff;
+    }
+
+    .div-conteudo-p-section p {
+        font-size: 1.125rem;
+        margin: 30px -15px 0 -5px;
+        color: #ffffff;
+    }
+
+    .botao-saiba-mais-p-section {
+        display: block;
+        width: 100%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 60px;
+        text-decoration: none !important;
+        padding-left: 58px !important;
+    }
+
+    .imagem-p-section {
+        display: none;
+    }
+
+    .height-581 {
+        height: 655px;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -127,6 +173,52 @@
         margin-left: 280px;
         margin-top: -60px;
         width: 50px;    
+    }
+
+    .div-conteudo-p-section h1 {
+        letter-spacing: normal;
+        font-family: Barlow;
+        font-weight: 700;
+        font-size: 2.1rem;
+        text-transform: none;
+        margin: 0;
+        color: #ffffff;
+    }
+
+    .div-conteudo-p-section p {
+        font-size: 1.125rem;
+        margin: 30px -15px 0 0;
+        color: #ffffff;
+    }
+
+    .botao-saiba-mais-p-section {
+        display: block;
+        width: 85%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 60px;
+        text-decoration: none !important;
+        padding-left: 65px !important;
+    }
+
+    .imagem-p-section {
+        display: none;
+    }
+
+    .height-581 {
+        height: 606px;
     }
 }
   
@@ -136,6 +228,52 @@
         margin-top: -60px;
         width: 50px;
     }
+
+    .div-conteudo-p-section h1 {
+        letter-spacing: normal;
+        font-family: Barlow;
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-transform: none;
+        margin: 0;
+        color: #ffffff;
+    }
+
+    .div-conteudo-p-section p {
+        font-size: 1.125rem;
+        margin: 30px -15px 0 0;
+        color: #ffffff;
+    }
+
+    .botao-saiba-mais-p-section {
+        display: block;
+        width: 75%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 60px;
+        text-decoration: none !important;
+        padding-left: 70px !important;
+    }
+
+    .imagem-p-section {
+        display: none;
+    }
+
+    .height-581 {
+        height: 595px;
+    }
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -143,6 +281,49 @@
         margin-left: 640px;
         margin-top: -60px;
         width: 90px;
+    }
+
+    .div-conteudo-p-section h1 {
+        letter-spacing: normal;
+        font-family: Barlow;
+        font-weight: 700;
+        font-size: 2.6rem;
+        text-transform: none;
+        margin: 0;
+        color: #ffffff;
+    }
+
+    .div-conteudo-p-section p {
+        font-size: 1.125rem;
+        margin: 30px -15px 0 0;
+        color: #ffffff;
+    }
+
+    .botao-saiba-mais-p-section {
+        display: block;
+        width: 65%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 90px;
+        text-decoration: none !important;
+        padding-left: 150px !important;
+        margin-left: 105px;
+    }
+
+    .height-581 {
+        height: 1105px;
     }
 }
   
@@ -155,6 +336,36 @@
         margin-left: 870px;
         margin-top: -60px;
         width: 110px;
+    }
+
+    .height-581 {
+        height: 610px;
+    }
+
+    .imagem-p-section {
+        display: unset;
+    }
+
+    .botao-saiba-mais-p-section {
+        display: block;
+        width: 65%;
+        height: 50px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        background-image: linear-gradient(to right, #806f6f, #29b7dd, #b4975a);
+        background-size: 200%;
+        font-size: 1.2rem !important;
+        color: #fff !important;
+        font-family: 'Zen Old Mincho', serif;
+        text-transform: uppercase;
+        margin: 1rem 0;
+        cursor: pointer;
+        transition: .5s;
+        padding-top: 11px !important;
+        margin-top: 55px;
+        text-decoration: none !important;
+        padding-left: 75px !important;
     }
 }
   

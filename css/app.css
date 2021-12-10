@@ -34,6 +34,10 @@
     height: 475px;
 }
 
+.height-615 {
+    height: 615px;
+}
+
 .color-background-color-header {
     color: #ffffff;
     background-color: #3b065e;
@@ -666,6 +670,95 @@
     color: white !important;
 }
 
+.div-conteudo-nona-section {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.div-conteudo-nona-section h1 {
+    width: 489px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    margin: 60px auto 0;
+    font-size: 3rem;
+    font-family: Barlow;
+    line-height: 1.1;
+}
+
+.div-conteudo-nona-section p {
+    font-size: 1.125rem;
+    width: 680px;
+    margin: 20px auto 0;
+    font-family: 'Lora', serif;
+}
+
+.div-conteudo-contato {
+    padding: 45px 20px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #111111;
+    text-align: center;
+    background-color: #ffffff;
+    height: 300px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.div-conteudo-contato span {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #999999;
+    border-color: #d9d9d9;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: all .5s;
+}
+
+.div-conteudo-contato h5 {
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1.25rem;
+    margin: 30px -1px 0;
+    color: #999999;
+    line-height: 1.2;
+    font-family: "Roboto",sans-serif;
+}
+
+.div-conteudo-contato p {
+    margin: 20px -1px 0;
+    color: #111111;
+    text-align: center;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.div-conteudo-contato a {
+    color: #111111;
+    border-style: none;
+    background-image: none;
+    text-decoration: underline !important;
+    align-self: center;
+    margin: 20px auto 0;
+    padding: 0;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.margin-top-0 {
+    margin-top: 0px !important;
+}
+
 
 
 /* Responsivo */
@@ -1126,6 +1219,32 @@
         height: 955px;
     }
 
+    .mt-15 {
+        margin-top: 1.5rem!important;
+    }
+
+    .div-conteudo-nona-section h1 {
+        width: 285px;
+        font-weight: 400;
+        letter-spacing: normal;
+        text-transform: none;
+        margin: 60px auto 0;
+        font-size: 2.3rem;
+        font-family: Barlow;
+        line-height: 1.1;
+    }
+
+    .div-conteudo-nona-section p {
+        font-size: 1.125rem;
+        width: 270px;
+        margin: 20px auto 0;
+        font-family: 'Lora', serif;
+    }
+
+    .height-615 {
+        height: 1300px;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -1584,6 +1703,32 @@
         height: 770px;
     }
 
+    .mt-15 {
+        margin-top: 1.5rem!important;
+    }
+
+    .div-conteudo-nona-section h1 {
+        width: 325px;
+        font-weight: 400;
+        letter-spacing: normal;
+        text-transform: none;
+        margin: 60px auto 0;
+        font-size: 2.7rem;
+        font-family: Barlow;
+        line-height: 1.1;
+    }
+
+    .div-conteudo-nona-section p {
+        font-size: 1.125rem;
+        width: 320px;
+        margin: 20px auto 0;
+        font-family: 'Lora', serif;
+    }
+
+    .height-615 {
+        height: 1300px;
+    }
+
 }
   
 @media (min-width:  376px) and (max-width: 576px) {   
@@ -2020,6 +2165,32 @@
         height: 755px;
     }
 
+    .mt-15 {
+        margin-top: 1.5rem!important;
+    }
+
+    .div-conteudo-nona-section h1 {
+        width: 380px;
+        font-weight: 400;
+        letter-spacing: normal;
+        text-transform: none;
+        margin: 60px auto 0;
+        font-size: 3rem;
+        font-family: Barlow;
+        line-height: 1.1;
+    }
+
+    .div-conteudo-nona-section p {
+        font-size: 1.125rem;
+        width: 380px;
+        margin: 20px auto 0;
+        font-family: 'Lora', serif;
+    }
+
+    .height-615 {
+        height: 1300px;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -2278,6 +2449,14 @@
 
     .height-475 {
         height: 675px;
+    }
+
+    .mt-15 {
+        margin-top: 1.5rem!important;
+    }
+
+    .height-615 {
+        height: 1275px;
     }
 
 }

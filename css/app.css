@@ -26,6 +26,10 @@
     height: 1089px;
 }
 
+.height-1120 {
+    height: 1120px;
+}
+
 .color-background-color-header {
     color: #ffffff;
     background-color: #3b065e;
@@ -512,6 +516,82 @@
     margin-left: 60px;
 }
 
+.cor-de-fundo-setima-section {
+    background-image: none;
+    height: 567px;
+    width: 784px;
+    margin: 186px 0 0 auto;
+    background-color: #5d3be7;
+}
+
+.imagem-da-setima-section {
+    height: 627px;
+    width: 856px;
+    margin: -690px 72px 0 auto;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.segunda-imagem-da-setima-section {
+    width: 560px;
+    min-height: 615px;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7182378fbd325625966435fd/a7d25ea5-f10e-d3df-2733-55a779ff3988.png);
+    margin: -318px auto 0 43px;
+    background-size: initial;
+    background-repeat: repeat;
+    background-position: top left !important;
+}
+
+.div-conteudo-da-setima-section {
+    width: 536px;
+    min-height: 480px;
+    margin: -570px auto 60px 0;
+    color: #111111;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+}
+
+.padding-40 {
+    padding: 40px 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.padding-40 h1 {
+    font-size: 3.4rem;
+    font-family: Barlow;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+    color: #3b065e;
+}
+
+.padding-40 p {
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 20px 0 0;
+    color: #111111;
+}
+
+.padding-40 a {
+    color: #29b7dd;
+    display: inline;
+}
+
+.imagem-de-freepik-setima-section {
+    font-style: normal !important;
+    font-size: 1.05rem !important;
+    font-weight: 600;
+    margin: 20px 0 0;
+    color: #111111;
+}
+
 /* Responsivo */
 
 @media (max-width: 320px) { 
@@ -857,6 +937,72 @@
 
     .padding-0px {
         padding: 0px 0 30px 0 !important;
+    }
+
+    .padding-left-125 {
+        padding-left: 55px !important;
+        margin-left: -25px;
+        width: 130%;
+    }
+
+    .imagem-da-setima-section {
+        height: 627px;
+        width: 280px;
+        margin: -690px 72px 0 auto;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .cor-de-fundo-setima-section {
+        background-image: none;
+        height: 567px;
+        width: 293px;
+        margin: 186px 0 0 auto;
+        background-color: #5d3be7;
+    }    
+
+    .segunda-imagem-da-setima-section {
+        width: 240px;
+        min-height: 615px;
+        background-image: url(https://images01.nicepage.com/c461c07…/7182378…/a7d25ea5-f10e-d3df-2733-55a779ff3988.png);
+        margin: -318px auto 0 43px;
+        background-size: initial;
+        background-repeat: repeat;
+        background-position: top left !important;
+    }
+
+    .div-conteudo-da-setima-section {
+        width: 290px;
+        min-height: 480px;
+        margin: -630px auto 60px 0;
+        color: #111111;
+        background-color: #ffffff;
+        display: flex;
+        position: relative;
+    }
+
+    .padding-40 h1 {
+        font-size: 1.4rem;
+        font-family: Barlow;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.1;
+        color: #3b065e;
+    }
+
+    .padding-40 p {
+        font-style: italic;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 20px 0 0;
+        color: #111111;
+    }
+
+    .height-1120 {
+        height: 987px;
     }
 
 }
@@ -1206,6 +1352,72 @@
         padding: 0px 0 30px 0 !important;
     }
 
+    .padding-left-125 {
+        padding-left: 55px !important;
+        margin-left: -4px;
+        width: 100%;
+    }
+
+    .imagem-da-setima-section {
+        height: 627px;
+        width: 330px;
+        margin: -690px 72px 0 auto;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .cor-de-fundo-setima-section {
+        background-image: none;
+        height: 567px;
+        width: 348px;
+        margin: 186px 0 0 auto;
+        background-color: #5d3be7;
+    }
+
+    .segunda-imagem-da-setima-section {
+        width: 300px;
+        min-height: 615px;
+        background-image: url(https://images01.nicepage.com/c461c07…/7182378…/a7d25ea5-f10e-d3df-2733-55a779ff3988.png);
+        margin: -318px auto 0 43px;
+        background-size: initial;
+        background-repeat: repeat;
+        background-position: top left !important;
+    }
+
+    .div-conteudo-da-setima-section {
+        width: 340px;
+        min-height: 480px;
+        margin: -630px auto 60px 0;
+        color: #111111;
+        background-color: #ffffff;
+        display: flex;
+        position: relative;
+    }
+
+    .padding-40 h1 {
+        font-size: 1.9rem;
+        font-family: Barlow;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.1;
+        color: #3b065e;
+    }
+
+    .padding-40 p {
+        font-style: italic;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 20px 0 0;
+        color: #111111;
+    }
+
+    .height-1120 {
+        height: 987px;
+    }
+
 }
   
 @media (min-width:  376px) and (max-width: 576px) {   
@@ -1531,6 +1743,72 @@
         padding: 0px 0 30px 0 !important;
     }
 
+    .padding-left-125 {
+        padding-left: 60px !important;
+        margin-left: 10px;
+        width: 85%;
+    }
+
+    .imagem-da-setima-section {
+        height: 627px;
+        width: 375px;
+        margin: -690px 72px 0 auto;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .cor-de-fundo-setima-section {
+        background-image: none;
+        height: 567px;
+        width: 395px;
+        margin: 186px 0 0 auto;
+        background-color: #5d3be7;
+    }
+
+    .segunda-imagem-da-setima-section {
+        width: 358px;
+        min-height: 615px;
+        background-image: url(https://images01.nicepage.com/c461c07…/7182378…/a7d25ea5-f10e-d3df-2733-55a779ff3988.png);
+        margin: -318px auto 0 43px;
+        background-size: initial;
+        background-repeat: repeat;
+        background-position: top left !important;
+    }
+
+    .div-conteudo-da-setima-section {
+        width: 395px;
+        min-height: 480px;
+        margin: -630px auto 60px 0;
+        color: #111111;
+        background-color: #ffffff;
+        display: flex;
+        position: relative;
+    }
+
+    .padding-40 h1 {
+        font-size: 2.3rem;
+        font-family: Barlow;
+        font-weight: 700;
+        margin: 0;
+        line-height: 1.1;
+        color: #3b065e;
+    }
+
+    .padding-40 p {
+        font-style: italic;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 20px 0 0;
+        color: #111111;
+    }
+
+    .height-1120 {
+        height: 1015px;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1720,6 +1998,31 @@
         height: 1070px;
     }
 
+    .padding-left-125 {
+        padding-left: 55px !important;
+        margin-left: 10px;
+        width: 55%;
+    }
+
+    .imagem-da-setima-section {
+        height: 627px;
+        width: 695px;
+        margin: -690px 72px 0 auto;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .cor-de-fundo-setima-section {
+        background-image: none;
+        height: 567px;
+        width: 710px;
+        margin: 186px 0 0 auto;
+        background-color: #5d3be7;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1892,8 +2195,14 @@
         background-size: contain;
     }
 
+    .padding-left-125 {
+        padding-left: 125px !important;
+    }
+
 }
   
 @media (min-width: 1201px) {
-    
+    .padding-left-125 {
+        padding-left: 95px !important;
+    }
 }

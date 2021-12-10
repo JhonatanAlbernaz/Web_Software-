@@ -38,6 +38,10 @@
     height: 615px;
 }
 
+.height-143 {
+    height: 143px;
+}
+
 .color-background-color-header {
     color: #ffffff;
     background-color: #3b065e;
@@ -45,6 +49,11 @@
 
 .background-color {
     background-color: #3b065e;
+}
+
+.background-color-cinza {
+    color: #ffffff;
+    background-color: #333333;
 }
 
 .bar1, .bar2, .bar3 {
@@ -759,6 +768,49 @@
     margin-top: 0px !important;
 }
 
+.tag-p-footer {
+    width: 417px;
+    margin: 49px auto;
+    font-size: 0.875rem;
+}
+
+.tag-a-footer {
+    text-decoration: underline;
+    color: #a3e1f1;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.tag-a-footer span {
+    font-size: 0.8rem;
+}
+
+.tag-a-footer:hover {
+    color: gray;
+    text-decoration: none !important;
+}
+
+.tag-p-footer-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.tag-p-footer-2:hover {
+    color: gray;
+    text-decoration: none !important;
+}
+
+.tag-p-footer-2 span {
+    font-size: 0.8rem;
+}
+
+.margin-left-380 {
+    margin-left: 380px;
+    margin-top: 60px;
+}
+
 
 
 /* Responsivo */
@@ -1245,6 +1297,25 @@
         height: 1300px;
     }
 
+    .tag-p-footer {
+        width: 285px;
+        margin: 49px auto;
+        font-size: 0.875rem;
+    }
+
+    .margin-left-380 {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .height-143 {
+        height: 161px;
+    }
+
 }
   
 @media (min-width: 321px) and (max-width: 375px) {
@@ -1729,6 +1800,25 @@
         height: 1300px;
     }
 
+    .tag-p-footer {
+        width: 330px;
+        margin: 49px auto;
+        font-size: 0.875rem;
+    }
+
+    .tag-a-footer span {
+        font-size: 0.7rem;
+    }
+
+    .tag-p-footer-2 span {
+        font-size: 0.7rem;
+    }
+
+    .margin-left-380 {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+
 }
   
 @media (min-width:  376px) and (max-width: 576px) {   
@@ -2191,6 +2281,17 @@
         height: 1300px;
     }
 
+    .tag-p-footer {
+        width: 380px;
+        margin: 49px auto;
+        font-size: 0.875rem;
+    }
+
+    .margin-left-380 {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -2459,6 +2560,11 @@
         height: 1275px;
     }
 
+    .margin-left-380 {
+        margin-left: 175px;
+        margin-top: 40px;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -2669,6 +2775,11 @@
 
     .height-475 {
         height: 500px;
+    }
+
+    .margin-left-380 {
+        margin-left: 298px;
+        margin-top: 45px;
     }
 
 }

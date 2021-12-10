@@ -18,6 +18,10 @@
     height: 695px;
 }
 
+.height-690 {
+    height: 690px;
+}
+
 .height-1089 {
     height: 1089px;
 }
@@ -494,7 +498,19 @@
     margin-left: 22px !important;
 }
 
+.imagem-sexta-section {
+    width: 710px;
+    height: 584px;
+    object-position: 95.67% 50%;
+    background-position: 95.67% 50%;
+    margin: 53px auto 0 0;
+    object-fit: contain;
+    background-size: contain;
+}
 
+.margin-left-60 {
+    margin-left: 60px;
+}
 
 /* Responsivo */
 
@@ -819,6 +835,28 @@
 
     .margin-left-35 {
         margin-left: 55px !important;
+    }
+
+    .text-end {
+        text-align: unset !important;
+    }
+
+    .height-690 {
+        height: 775px;
+    }
+
+    .imagem-sexta-section {
+        width: 290px;
+        height: 335px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: -30px auto 0 0;
+        object-fit: contain;
+        background-size: contain;
+    }
+
+    .padding-0px {
+        padding: 0px 0 30px 0 !important;
     }
 
 }
@@ -1146,6 +1184,28 @@
         margin-left: 55px !important;
     }
 
+    .text-end {
+        text-align: unset !important;
+    }
+
+    .height-690 {
+        height: 825px;
+    }
+
+    .imagem-sexta-section {
+        width: 345px;
+        height: 415px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: -45px auto 0 0;
+        object-fit: contain;
+        background-size: contain;
+    }
+
+    .padding-0px {
+        padding: 0px 0 30px 0 !important;
+    }
+
 }
   
 @media (min-width:  376px) and (max-width: 576px) {   
@@ -1449,6 +1509,28 @@
         margin-left: 55px !important;
     }
 
+    .text-end {
+        text-align: unset !important;
+    }
+
+    .height-690 {
+        height: 825px;
+    }
+
+    .imagem-sexta-section {
+        width: 395px;
+        height: 480px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: -70px auto 0 0;
+        object-fit: contain;
+        background-size: contain;
+    }    
+
+    .padding-0px {
+        padding: 0px 0 30px 0 !important;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1630,6 +1712,14 @@
         margin: -145px 525px 0 0;
     }
 
+    .text-end {
+        text-align: unset !important;
+    }
+
+    .height-690 {
+        height: 1070px;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1790,6 +1880,16 @@
         color: #ffffff;
         font-size: 1.125rem;
         margin: -145px 760px 0 0;
+    }
+
+    .imagem-sexta-section {
+        width: 590px;
+        height: 584px;
+        object-position: 95.67% 50%;
+        background-position: 95.67% 50%;
+        margin: 53px auto 0 0;
+        object-fit: contain;
+        background-size: contain;
     }
 
 }
